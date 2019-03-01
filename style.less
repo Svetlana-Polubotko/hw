@@ -1,0 +1,27 @@
+
+.block{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.square{
+		width: 150px;
+		height: 150px;
+		margin: 15px;
+		border-radius: 10px;
+		opacity: 0;
+		&.active{
+			opacity: 1;
+		}
+	}
+
+	#red{
+		background-color: red;
+	}
+	#blue{
+		background-color: blue;
+	}
+	#green{
+		background-color: green;
+	}
+}
